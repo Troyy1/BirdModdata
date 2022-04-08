@@ -1,0 +1,272 @@
+{
+  "mods" : [
+     {
+        "name" : "BepInEx",
+        "tag" : "",
+        "gitPath" : "BepInEx/BepInEx",
+        "releaseId" : 1,
+        "author" : "BepInEx Team",
+        "group" : "Core"
+     },
+     {
+        "name" : "Gorilla Cosmetics",
+        "tag" : "",
+        "gitPath" : "legoandmars/GorillaCosmetics",
+        "releaseId" : 0,
+        "author" : "Bobbie & Graic",
+        "group" : "Cosmetic",
+        "dependencies" : [
+         "Utilla",
+         "Newtonsoft.JSON"
+        ]
+     },
+     {
+      "name" : "MonkeTrails",
+      "tag" : "",
+      "gitPath" : "jona939s/Trail-monkey",
+      "releaseId" : 0,
+      "author" : "JJoe",
+      "group" : "Cosmetic"
+     },
+     {
+        "name" : "AirJump",
+        "tag" : "",
+        "gitPath" : "fchb1239/AirJump",
+        "releaseId" : 0,
+        "author" : "fchb1239",
+        "group" : "Gameplay",
+        "dependencies" : [
+         "Utilla",
+         "Computer Interface"
+        ]
+     },
+     {
+      "name" : "Dash Monke",
+      "tag" : "",
+      "gitPath" : "Frogrilla/DashMonke",
+      "releaseId" : 0,
+      "author" : "Frogrilla",
+      "group" : "Gameplay",
+      "dependencies" : [
+       "Utilla"
+      ]
+     },
+     {
+      "name" : "GripMonke",
+      "tag" : "",
+      "gitPath" : "TransLillie/GripMonke",
+      "releaseId" : 0,
+      "author" : "Lillie",
+      "group" : "Gameplay",
+      "dependencies" : [
+       "Utilla",
+       "Computer Interface"
+      ]
+     },
+     {
+      "name" : "Iron Monke",
+      "tag" : "",
+      "gitPath" : "BzzzThe18th/IronMonkePC",
+      "releaseId" : 0,
+      "author" : "Buzz Bzzz bzz BZZZ The 18th",
+      "group" : "Gameplay",
+      "dependencies" : [
+       "Utilla"
+      ]
+     },
+     {
+        "name" : "Monke Map Loader",
+        "tag" : "",
+        "gitPath" : "Vadix88/MonkeMapLoader",
+        "releaseId" : 0,
+        "author" : "Vadix",
+        "group" : "Gameplay",
+        "dependencies" : [
+         "Newtonsoft.JSON",
+         "Utilla",
+         "Computer Interface"
+        ]
+     },
+     {
+      "name" : "PowerArms",
+      "tag" : "",
+      "gitPath" : "AHauntedArmy/PowerArms",
+      "releaseId" : 0,
+      "author" : "A Haunted Army",
+      "group" : "Gameplay",
+      "dependencies" : [
+        "Utilla"
+       ]
+     },
+     {
+      "name" : "Practice Mod",
+      "tag" : "",
+      "gitPath" : "Graicc/PracticeMod",
+      "releaseId" : 0,
+      "author" : "Graic",
+      "group" : "Gameplay",
+      "dependencies" : [
+       "Utilla",
+       "Computer Interface"
+      ]
+     },
+     {
+      "name" : "Slippery Ice",
+      "tag" : "",
+      "gitPath" : "fchb1239/SlipperyIce",
+      "releaseId" : 0,
+      "author" : "fchb1239",
+      "group" : "Gameplay",
+      "dependencies" : [
+       "Utilla",
+       "Computer Interface"
+      ]
+     },
+     {
+        "name" : "Space Monke",
+        "tag" : "",
+        "gitPath" : "legoandmars/SpaceMonke",
+        "releaseId" : 0,
+        "author" : "Bobbie",
+        "group" : "Gameplay",
+        "dependencies" : [
+          "Utilla"
+         ]
+     },
+     {
+      "name" : "BrokenController",
+      "tag" : "",
+      "gitPath" : "AHauntedArmy/BrokenController",
+      "releaseId" : 0,
+      "author" : "A Haunted Army",
+      "group" : "Tweaks / Tools"
+     },
+     {
+      "name" : "Haunted Mod Menu",
+      "tag" : "",
+      "gitPath" : "AHauntedArmy/HauntedModMenu",
+      "releaseId" : 0,
+      "author" : "A Haunted Army",
+      "group" : "Tweaks / Tools",
+      "dependencies" : [
+        "Utilla"
+      ]
+     },
+     {
+      "name" : "MonkeSwim",
+      "tag" : "",
+      "gitPath" : "AHauntedArmy/MonkeSwim",
+      "releaseId" : 0,
+      "author" : "A Haunted Army",
+      "group" : "Tweaks / Tools",
+      "dependencies" : [
+        "Monke Map Loader"
+       ]
+     },
+     {
+      "name" : "NoAmbient",
+      "tag" : "",
+      "gitPath" : "RusJJ/NoAmbient",
+      "releaseId" : 0,
+      "author" : "[-=KILL MAN=-] aka RusJJ",
+      "group" : "Tweaks / Tools"
+     },
+     {
+      "name" : "YURFitGorillaTag",
+      "tag" : "",
+      "gitPath" : "AHauntedArmy/YURFitGorillaTag",
+      "releaseId" : 0,
+      "author" : "A Haunted Army & fchb1239",
+      "group" : "Tweaks / Tools",
+      "dependencies" : [
+        "TMPLoader"
+       ]
+     },
+     {
+        "name" : "Utilla",
+        "tag" : "",
+        "gitPath" : "legoandmars/Utilla",
+        "releaseId" : 0,
+        "author" : "Bobbie",
+        "group" : "Libraries"
+     },
+     {
+       "name" : "Computer Interface",
+       "tag" : "",
+       "gitPath" : "ToniMacaroni/ComputerInterface",
+       "releaseId": 0,
+       "author" : "Toni Macaroni",
+       "group" : "Libraries",
+       "dependencies" : [
+         "Bepinject"
+       ]
+     },
+     {
+       "name" : "Bepinject",
+       "tag" : "",
+       "gitPath" : "Auros/Bepinject",
+       "releaseId": 0,
+       "author" : "Auros",
+       "group" : "Libraries",
+       "installPath" : "BepInEx/plugins",
+       "dependencies" : [
+         "Extenject"
+       ]
+     },
+     {
+       "name" : "Extenject",
+       "tag" : "",
+       "gitPath" : "Auros/Bepinject",
+       "releaseId": 1,
+       "author" : "svermeulen",
+       "group" : "Libraries",
+       "installPath" : "BepInEx/plugins"
+     },
+     {
+        "name" : "Newtonsoft.JSON",
+        "tag" : "",
+        "gitPath" : "legoandmars/Newtonsoft.Json",
+        "releaseId" : 0,
+        "author" : "James Newton-King",
+        "group" : "Libraries"
+     },
+     {
+      "name" : "BananaHook",
+      "tag" : "",
+      "gitPath" : "RusJJ/BananaHook",
+      "releaseId" : 0,
+      "author" : "[-=KILL MAN=-] aka RusJJ",
+      "group" : "Libraries"
+     },
+     {
+      "name" : "TMPLoader",
+      "tag" : "",
+      "gitPath" : "AHauntedArmy/TMPLoader",
+      "releaseId" : 0,
+      "author" : "A Haunted Army",
+      "group" : "Libraries"
+     }
+  ],
+  "groups" : [
+    {
+      "name" : "Core",
+      "rank" : 0
+    },
+    {
+      "name" : "Cosmetic",
+      "rank" : 1
+    },
+    {
+      "name" : "Gameplay",
+      "rank" : 2
+    },
+    {
+      "name" : "Tweaks / Tools",
+      "rank" : 3
+    },
+    {
+      "name" : "Libraries",
+      "rank" : 4
+    }
+  ]
+}
